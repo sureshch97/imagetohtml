@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+*{
+    position:relative;
+} 
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    color: #222;
+    box-sizing: border-box;
+    
+
+}
+
+ul li{
+    display:inline;
+    margin: 0;
+}
+ul img{
+    margin-bottom:10%;
+    padding-top:1px;
+}
+
+span{
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20%;
+
+}
+  .container{
+    margin-top: 9rem;
+    position: relative;
+    padding-bottom: 3rem;
+    
+}  
+
+button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  .button4 {border-radius: 12px;
+  }
+ .options{
+      
+      border-radius: 32px;
+      padding-left: 10px;
+      margin-right: 10px;
+  } 
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width:100%;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+hr{
+    width:100%;
+    align-items: center;
+}
+
+footer img{
+    padding: 10px;
+    box-shadow: 1px 1px 10px #333;
+    border-radius: 32px;
+}
+ a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 32px;
+    text-shadow: 1px 1px 10px #333;
+}
+
+@media(max-width:992px){
+    nav{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .button{
+        text-align: center;
+        margin-left: 20%;
+        margin: 10px;
+    }
+   .main-head{
+        padding-right:100px;
+        margin-left: 10px;
+    }
+    
+
+}
+
+
+@media(max-width:576px){
+    body{
+        width: 100%;
+    }
+    ul li{
+        margin-right:4rem;
+        margin-left:4rem;
+    }
+    ul{
+        margin-left: 15%;
+    }
+   ul img ,span{
+       margin-left: 5px;
+       
+   }
+   
+    .button{
+        text-align: center;
+        margin-left:23%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    hr{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }  
+  
+}
